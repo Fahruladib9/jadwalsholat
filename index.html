@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Sholat Palembang</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container py-4">
+        <!-- Header -->
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <div class="card header-card p-4 text-center text-white">
+                    <h2><i class="fas fa-mosque me-2"></i>Jadwal Sholat</h2>
+                    <div class="location-badge">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Palembang, Sumatera Selatan</span>
+                    </div>
+                    <p id="current-date">Memuat tanggal...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="prayer-container" class="row justify-content-center">
+            <div class="col-lg-10">
+                <!-- Countdown -->
+                <div class="card countdown-card mb-4">
+                    <div class="card-body text-center py-3">
+                        <h5 class="countdown-title"><i class="fas fa-hourglass-half me-2"></i>Menuju Sholat Berikutnya
+                        </h5>
+                        <p class="countdown" id="next-prayer-countdown">Menghitung...</p>
+                    </div>
+                </div>
+
+                <!-- Prayer Times -->
+                <div class="row g-4 mb-4" id="prayer-times-container">
+                    <!-- Data jadwal sholat akan dimasukkan di sini -->
+                </div>
+
+                <!-- Monthly Table -->
+                <div class="table-card">
+                    <div class="table-header">
+                        <h5><i class="fas fa-calendar-alt me-2"></i>Jadwal Sholat Bulan Ini</h5>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="table-responsive">
+                            <table class="table table-hover mb-0" id="monthly-table">
+                                <thead>
+                                    <tr>
+                                        <th>Tanggal</th>
+                                        <th>Imsak</th>
+                                        <th>Subuh</th>
+                                        <th>Terbit</th>
+                                        <th>Dzuhur</th>
+                                        <th>Ashar</th>
+                                        <th>Maghrib</th>
+                                        <th>Isya</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="monthly-data">
+                                    <!-- Data bulanan akan dimasukkan di sini -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white py-3 mt-4 bg-dark">
+        <p class="mb-0">Dibuat dengan ❤️ oleh <strong>SudenDev</strong></p>
+        <p class="mb-0">
+            <i class="fab fa-github"></i> <a href="https://github.com/fahruladib9" target="_blank"
+                class="text-white">Fahruladib9</a>
+        </p>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
