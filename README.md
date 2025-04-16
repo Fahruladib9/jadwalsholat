@@ -37,7 +37,7 @@ Website sederhana yang menampilkan **jadwal sholat harian** khusus untuk wilayah
 1. Clone repository:
 
 ```bash
-git clone https://github.com/fahruladib9/jadwal-sholat-palembang.git
+git clone https://github.com/fahruladib9/jadwalsholat.git
 cd jadwal-sholat-palembang
 ```
 
